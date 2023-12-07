@@ -7,11 +7,14 @@ fun main() {
 
     var calc = Calculator()
      calc.cal(num1,operator,num2)
-
+//     calc.addcal(Add(),num1,"+",num2)
 
 }
 
 class Calculator {
+//    fun addcal(addclass:Add,num1: Int, operator:String, num2: Int){
+//        println(addclass.add(num1,num2))
+//    }
 fun cal(num1: Int, operator:String, num2: Int){
     return  if(operator=="+"){
         println(Add().add(num1,num2))
