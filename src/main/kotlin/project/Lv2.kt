@@ -55,3 +55,5 @@ class Calculator() {
         return num1 % num2
     }
 }
+
+율 바보
