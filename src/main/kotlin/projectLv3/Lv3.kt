@@ -1,11 +1,11 @@
 import kotlin.system.exitProcess
 
 fun main() {
-    var num1 = readln().toInt()
-    var operator = readln()
-    var num2 = readln().toInt()
+    val num1 = readln().toInt()
+    val operator = readln()
+    val num2 = readln().toInt()
 
-    var calc = Calculator()
+    val calc = Calculator()
      calc.cal(num1,operator,num2)
 //     calc.addcal(Add(),num1,"+",num2)
 
